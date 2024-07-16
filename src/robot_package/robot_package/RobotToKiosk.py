@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from robot_service.srv import IceRobot
-from scripts import robot_main
+from .scripts import robot_main
 
 # ================ service ================ #
 class RobotToKiosk(Node):
